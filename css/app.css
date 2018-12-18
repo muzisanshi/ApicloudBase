@@ -1,0 +1,43 @@
+*{padding: 0px;margin: 0px;}
+html,body{width: 100%;background-color: white;}
+input,button{border: none;outline: none;background:none;}
+p{color: black;}
+a{border: none;outline: none;background: none;appearance:none;}
+
+.font-14{font-size: 14px;}
+.font-16{font-size: 16px;}
+
+.font-blue{color: #8a959e;}
+
+.font-dark{color: #323232;}
+
+
+
+.clear{clear: both;}
+
+/*不选中文本*/
+.no-select{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+
+/*垂直居中（兼容IE、webkit、mozila）*/
+.center-vertical{display: -webkit-box;-webkit-box-align: center;display: -ms-flexbox;-ms-flex-align: center;display: -moz-box;-moz-box-align: center;}
+/*水平居中（兼容IE、webkit、mozila）*/
+.center-horizontal{display: -webkit-box;-webkit-box-pack: center;display:-ms-flexbox;-ms-flex-pack:center;display: -moz-box;-moz-box-pack: center;}
+/*居中（兼容IE、webkit、mozila）*/
+.center{display: -webkit-box;-webkit-box-pack: center;-webkit-box-align: center;display:-ms-flexbox;-ms-flex-pack:center;-ms-flex-align:center;display:-moz-box;-moz-box-pack:center;-moz-box-align:center;}
+
+.radius5{border-radius: 5px;}
+.clear{clear:both;}
+
+.font-gray{color: #e5e5e5;}
+.font-gray2{color: #999999;}
+.font-blue{color: #007cf8;}
+
+.font-12{font-size: 12px;}
+.font-14{font-size: 14px;}
+.font-16{font-size: 16px;}
+.font-18{font-size: 18px;}
+
+.arrow{display: inline-block;float: right;width: 10px;height: 10px;border-top: 1px solid #ccc;border-right: 1px solid #ccc;transform: rotate(45deg);}
+.hide{display: none;}
+
+.line2{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
