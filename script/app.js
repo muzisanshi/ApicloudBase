@@ -390,7 +390,7 @@
 			// 设置状态栏颜色
 			api.setStatusBarStyle({
 	            style: 'dark',
-	            color:'#ffffff'
+	            color:'transparent'
 	        });
 
 			// 初始化点击返回
@@ -436,7 +436,12 @@
 			this.FW = api.frameWidth;// frame宽度
 			this.FH = api.frameHeight;// frame高度
 
-			this.sH = 24;// 状态栏占位高度
+			// 安全区域距离顶部高度
+			this.safeTH = api.safeArea.top;
+			// 安全区域距离底部高度
+			this.safeBH = api.safeArea.bottom;
+
+			this.sH = api.safeArea.top;// 状态栏占位高度（其实是用的安全高度）
 			this.hH = 0;// 导航栏高度
 			this.btH = 70;// 底部tab高度
 			
